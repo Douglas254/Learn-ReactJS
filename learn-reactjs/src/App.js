@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       {/* component can be created once and be reused many times i.e the User component that we have */}
-      <User />
-      <User />
-      <User />
-      <User />
+      <User userName="Douglas" tweet="Great learning react" />
+      <User userName="Basil" tweet="Python Evangelist" />
+      <User userName="Ben" tweet="Java Guru" />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
