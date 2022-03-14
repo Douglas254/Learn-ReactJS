@@ -2,7 +2,8 @@ import "./App.css";
 // import Content from "./components/ReadMore";
 // import Greeting from "./components/Greeting";
 // import Form from "./components/Form";
-import UseState from "./components/reactHooks/UseState";
+// import UseState from "./components/reactHooks/UseState";
+import UseReducer from "./components/reactHooks/UseReducer";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* Try changing to isLoggedIn={true}: */}
       {/* <Greeting isLoggedIn={false} /> */}
       {/* <Content /> */}
-      <UseState />
+      {/* <UseState /> */}
+      <UseReducer />
     </div>
   );
 }
