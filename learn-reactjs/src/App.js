@@ -3,7 +3,8 @@ import "./App.css";
 // import Greeting from "./components/Greeting";
 // import Form from "./components/Form";
 // import UseState from "./components/reactHooks/UseState";
-import UseReducer from "./components/reactHooks/UseReducer";
+// import UseReducer from "./components/reactHooks/UseReducer";
+import UseEffect from "./components/reactHooks/UseEffect";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Greeting isLoggedIn={false} /> */}
       {/* <Content /> */}
       {/* <UseState /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <UseEffect />
     </div>
   );
 }
