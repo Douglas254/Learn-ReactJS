@@ -4,7 +4,8 @@ import "./App.css";
 // import Form from "./components/Form";
 // import UseState from "./components/reactHooks/UseState";
 // import UseReducer from "./components/reactHooks/UseReducer";
-import UseEffect from "./components/reactHooks/UseEffect";
+// import UseEffect from "./components/reactHooks/UseEffect";
+import UseRef from "./components/reactHooks/UseRef";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Content /> */}
       {/* <UseState /> */}
       {/* <UseReducer /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <UseRef />
     </div>
   );
 }
