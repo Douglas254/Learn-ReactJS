@@ -5,7 +5,8 @@ import "./App.css";
 // import UseState from "./components/reactHooks/UseState";
 // import UseReducer from "./components/reactHooks/UseReducer";
 // import UseEffect from "./components/reactHooks/UseEffect";
-import UseRef from "./components/reactHooks/UseRef";
+// import UseRef from "./components/reactHooks/UseRef";
+import UseLayoutEffect from "./components/reactHooks/UseLayoutEffect";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <UseState /> */}
       {/* <UseReducer /> */}
       {/* <UseEffect /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseLayoutEffect />
     </div>
   );
 }
