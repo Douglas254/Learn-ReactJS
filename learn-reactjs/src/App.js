@@ -6,7 +6,8 @@ import "./App.css";
 // import UseReducer from "./components/reactHooks/UseReducer";
 // import UseEffect from "./components/reactHooks/UseEffect";
 // import UseRef from "./components/reactHooks/UseRef";
-import UseLayoutEffect from "./components/reactHooks/UseLayoutEffect";
+// import UseLayoutEffect from "./components/reactHooks/UseLayoutEffect";
+import UseImperativeHandle from "./components/reactHooks/useImperativeHandle/UseImperativeHandle";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
-      <UseLayoutEffect />
+      {/* <UseLayoutEffect /> */}
+      <UseImperativeHandle />
     </div>
   );
 }
